@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+oauth2client = "==4.1.3"
+google-api-python-client = "==2.3.0"
+pandas = "==1.2.4"
+ipykernel = "==5.5.4"
+psycopg2-binary = "2.8.6"
+codetiming = "==1.3.0"
+fire = "*"
+sqlalchemy = "*"
+faker = "*"
+
+[dev-packages]
+black = "*"
+flake8 = "*"
+bandit = "*"
+pydocstyle = "*"
+pylama = "*"
+flake8-spellcheck = "*"
+yapf = "*"
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
